@@ -1,0 +1,28 @@
+# Entorno virtual y variables sensibles
+.env
+.venv/
+venv/
+env/
+
+# Cachés de Python y pruebas
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# PDFs locales de trabajo (conservar carpeta data/)
+data/*.pdf
+data/*.PDF
+
+# Modelos descargados localmente y cachés de HuggingFace/Streamlit
+.cache/
+.streamlit/secrets.toml
+
+# Archivos temporales del sistema operativo / IDE
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
